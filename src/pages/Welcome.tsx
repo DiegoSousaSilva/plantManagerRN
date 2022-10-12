@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 
 import watering from '../assets/watering.png';
+import fonts from '../styles/fonts';
 import colors from '../styles/colors';
 import Icon from 'react-native-vector-icons/Entypo';
 
@@ -42,12 +43,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: colors.heading,
     marginTop: 38,
+    fontFamily: fonts.heading,
+    lineHeight: 38,
   },
   subtitle: {
     fontSize: 18,
     textAlign: 'center',
     color: colors.heading,
     paddingHorizontal: 20,
+    fontFamily: fonts.text,
   },
   image: {
     height: Dimensions.get('window').width * 0.7,
